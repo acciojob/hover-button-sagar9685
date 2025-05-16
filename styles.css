@@ -1,2 +1,13 @@
+#btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; /* optional, makes it clear it's clickable */
+}
 
-/* Your CSS Code here. */
+#btn:hover {
+    background-color: yellow;
+    color: black; /* use 'color', not 'font-color' */
+    border-radius: 30px; /* 'webkit-border-radius' is outdated, use just 'border-radius' */
+}
